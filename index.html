@@ -1,148 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Virtual</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="preload" href="CSS/style.css" as="style">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-<body>
-    <header class="header">
-        <h1>UTP <span>G3 Virtual Store</span></h1>
+    
 
-    </header>
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="nav-bg">
-        <nav class="navegacion-principal">
-            <a href="#">Inicio </a>
-            <a href="#">Sobre mi </a>
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-        </nav>
-    </div>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-    <div class="img1">
-        <div class="contenido-img1">
-            <h2 class="titulo">Diseño y Desarrollo Web</h2>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="28"
-                    height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#597e8d" fill="none" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <circle cx="12" cy="11" r="3" />
-                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-                </svg>
-                Barranquilla - Colombia
-            </p>
-            <a class="boton" href="#contacto">Contactar</a>
-        </div>
-    </div>
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    
+  </head>
+
+  
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    
+    <div class="img-fluid">
+      <a class="navbar-brand" href="#">TECNOWARE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+        </ul>
 
 
-
-    <main>
-        <h2>Mis servicios</h2>
-
-        <section>
-            <h3>Diseño Web</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="56"
-                height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <rect x="3" y="4" width="18" height="12" rx="1" />
-                <line x1="7" y1="20" x2="17" y2="20" />
-                <line x1="9" y1="16" x2="9" y2="20" />
-                <line x1="15" y1="16" x2="15" y2="20" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam enim modi vel accusantium corporis
-                omnis nihil numquam maiores rerum inventore possimus veniam ea expedita, nostrum, obcaecati minima
-                dolore. Aut.</p>
-        </section>
-
-        <section>
-            <h3>Aplicaciones móviles</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-versions" width="56" height="56"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <rect x="10" y="5" width="10" height="14" rx="2" />
-                <line x1="7" y1="7" x2="7" y2="17" />
-                <line x1="4" y1="8" x2="4" y2="16" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam illum soluta qui et odit
-                voluptate sunt amet. At, vero harum. Error laborum corporis aspernatur dolorum optio ut eaque debitis.
-            </p>
-        </section>
-
-        <section>
-            <h3>Ecommerce</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-package" width="56" height="56"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#6f32be" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-                <line x1="12" y1="12" x2="20" y2="7.5" />
-                <line x1="12" y1="12" x2="12" y2="21" />
-                <line x1="12" y1="12" x2="4" y2="7.5" />
-                <line x1="16" y1="5.25" x2="8" y2="9.75" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut non atque dolorem aperiam consequuntur sint
-                itaque saepe! Unde illum, tenetur est, impedit dolorum quis cupiditate nostrum sunt in dolores
-                voluptatem!</p>
-        </section>
-    </main>
-
-    <section>
-        <h3>Contactar</h3>
-        <form>
-            <fieldset>
-                <legend>CONTACTANOS LLENANDO TODOS LOS CAMPOS</legend>
-
-                <div>
-                    <label>Nombre</label>
-                    <input type="text " placeholder="tu nombre">
-                </div>
-
-                <div>
-                    <label>Teléfono</label>
-                    <input type="tel " placeholder="tu teléfono">
-                </div>
-
-                <div>
-                    <label>Correo</label>
-                    <input type="email " placeholder="tu correo electrónico">
-                </div>
-
-                <div>
-                    <label>Mensaje</label>
-                    <textarea></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
-    </section>
+      </div>
+    </div>
+  </nav>
 
-    <section>
-        <h3>Contacto</h3>
-    </section>
+</header>
 
-    <footer>
-        <p> Todos los derechos reservados - Jessit Anaya </p>
-    </footer>
+<main>
 
-</body>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Todo en un solo lugar.</h1>
+            <p>Tecnoware la tienda online número 1 en tecnología.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Comprar</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          
+          <div class="carousel-caption">
+            <h1>Precios insuperables.</h1>
+            <p>Para fanaticos de la tecnología.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Encuentra aquí los mejores gadgets.</h1>
+            <p>Tecnoware tu mejor opción.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver galería</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#F9BD25"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+        <h2>Gadgets</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#F9BD25"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+
+        <h2>Celulares</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#F9BD25"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+        <h2>Laptops</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Tecnoware, Inc. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
 </html>
