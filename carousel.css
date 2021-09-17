@@ -2388,3 +2388,27 @@ fieldset:disabled .btn {
   /* rtl:remove */
   letter-spacing: -0.05rem;
 }
+
+.list-style {
+  list-style: none;
+}
+
+.flotar-derecha {
+  float: right;
+}
+
+.container-footer {
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  float: left;
+
+  background: url(img/logo.jpg);
+  background-position: center;
+}
+
+.color {
+  color: rgb(235, 235, 235);
+}
