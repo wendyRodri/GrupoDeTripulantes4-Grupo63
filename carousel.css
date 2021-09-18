@@ -2438,3 +2438,9 @@ fieldset:disabled .btn {
 .div4 {
   grid-area: 2 / 2 / 3 / 3;
 }
+
+.nave {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
