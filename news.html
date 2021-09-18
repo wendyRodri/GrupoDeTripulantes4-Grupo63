@@ -16,7 +16,7 @@
 
   <style>
     html {
-      background-color: #000;
+      background-color: white;
     }
 
     body {
@@ -55,7 +55,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
       <div class="img-fluid">
-        <a class="navbar-brand" href="#">TECNOWARE</a>
+        <a class="navbar-brand" href="index.html">TECNOWARE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Categorías</a>
@@ -114,21 +114,32 @@
         grid-area: 3 / 1 / 4 / 4;
       }
 
+      .news-info__title {
+
+        position: absolute;
+        margin-left: 1em;
+
+
+
+      }
 
       .news-info__imagen {
         padding: 10px;
-        margin: 0px;
+        margin: 50px;
         border: none;
         float: right;
-        width: 550px;
+        width: 500px;
+        padding-top: 2em;
+
       }
 
       .parrafo {
 
         text-align: justify;
-        padding-top: 4em;
+        padding-top: 5em;
         padding-inline-end: 1em;
         margin-left: 2em;
+
 
 
       }
@@ -136,9 +147,10 @@
 
 
     <div class="parent">
+      <h1 class="news-info__title">Estos son todos los dispositivos compatibles con Disney Plus</h1>
 
       <div class="div1">
-        <div class="parrafo black">
+        <div class="parrafo">
           Probablemente ya sepas todos los tipos de contenidos que puedes disfrutar en Disney Plus, desde cortometrajes
           animados de Mickey
           Mouse hasta las más recientes producciones de Pixar, pasando por toda clase de series, películas y contenidos
@@ -181,7 +193,7 @@
         <img class="news-info__imagen"
           src="https://i1.wp.com/micasafit.club/wp-content/uploads/2021/07/disney-illustration.jpg?resize=696%2C464&ssl=1"
           alt="">
-        <h2 class="news-info__title">Noticia 1</h2>
+
 
 
       </div>

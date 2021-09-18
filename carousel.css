@@ -2444,3 +2444,7 @@ fieldset:disabled .btn {
   position: fixed;
   z-index: 100;
 }
+
+.news-info__imagen {
+  width: 400px;
+}
