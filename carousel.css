@@ -395,7 +395,6 @@ body {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-    
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -2450,4 +2449,20 @@ fieldset:disabled .btn {
 
 .news-info__imagen {
   width: 100px;
+}
+
+.carrito {
+  border-left: #212529 500px solid;
+}
+
+.team-info__imagen {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.services-info__imagen {
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
