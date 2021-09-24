@@ -25,7 +25,7 @@
 *,
 ::after,
 ::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 /*Configuraciones que se aplican al cuerpo de las páginas*/
@@ -39,7 +39,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: transparent;     
+  -webkit-tap-highlight-color: transparent;
 }
 
 /*Esto cambia el margen izquierdo de varios componentes de las páginas*/
@@ -74,7 +74,7 @@ body {
   --bs-gutter-x: 5rem;
   --bs-gutter-y: 0;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
@@ -1277,9 +1277,9 @@ fieldset:disabled .btn {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-between;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -1294,8 +1294,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
 }
 .-brand {
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   text-decoration-style: none;
@@ -1896,7 +1896,7 @@ fieldset:disabled .btn {
 
 /*Esto acomoda el baner de noticias*/
 .carousel {
-  position:relative;
+  position: relative;
 }
 .carousel.pointer-event {
   touch-action: pan-y;
@@ -2017,7 +2017,7 @@ fieldset:disabled .btn {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 .carousel-indicators {
-  position:absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -2424,6 +2424,14 @@ fieldset:disabled .btn {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Equipo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
