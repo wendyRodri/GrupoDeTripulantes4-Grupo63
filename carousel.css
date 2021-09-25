@@ -2474,3 +2474,8 @@ fieldset:disabled .btn {
   margin-right: auto;
   margin-left: auto;
 }
+
+.de {
+  float: right;
+  margin-left: 50px;
+}
