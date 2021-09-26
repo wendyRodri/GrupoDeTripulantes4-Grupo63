@@ -2430,7 +2430,7 @@ fieldset:disabled .btn {
 
 .Equipo {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -2456,7 +2456,7 @@ fieldset:disabled .btn {
 }
 
 .news-info__imagen {
-  width: 100px;
+  width: 400px;
 }
 
 .carrito {
@@ -2467,15 +2467,34 @@ fieldset:disabled .btn {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 250px;
 }
 
 .services-info__imagen {
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
+  width: 200px;
 }
 
 .de {
   float: right;
   margin-left: 50px;
+}
+
+.nuestro_equipo {
+  text-align: center;
+}
+
+.nombre {
+  text-align: center;
+}
+
+.titulo_noticias {
+  text-align: center;
+}
+
+.texto_miembro_equipo {
+  text-align: justify;
+  column-width: 100;
 }
