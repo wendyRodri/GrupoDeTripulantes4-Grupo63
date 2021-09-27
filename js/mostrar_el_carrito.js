@@ -6,11 +6,13 @@ carrito = JSON.parse(localStorage.getItem("lista"))
 
 localStorage.removeItem("lista");
 
+//Esto actualiza la tabla de la página
 for(i = 0; i < Object.keys(carrito).length; i++ ){
   tbody.innerHTML = ''
   carrito.map(item => {
     const tr = document.createElement('tr')
     tr.classList.add('ItemCarrito')
+    //Este es el codigo html que se agrega a la etiqueta que tiene la clase tbody en la página pedido
     const Content = `
     <th scope="row">1</th>
     <td class="table__productos">
