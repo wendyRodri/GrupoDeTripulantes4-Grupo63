@@ -4,7 +4,7 @@ let carrito = []
 
 carrito = JSON.parse(localStorage.getItem("lista"))
 
-localStorage.removeItem("lista");
+//localStorage.removeItem("lista");
 
 //Esto actualiza la tabla de la página
 for(i = 0; i < Object.keys(carrito).length; i++ ){
