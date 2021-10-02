@@ -9943,17 +9943,17 @@ fieldset:disabled .btn {
   column-width: 100;
 }
 
-.table__productos{
+.table__productos {
   display: flex;
 }
 
-.table__productos > img{
+.table__productos > img {
   width: 9rem;
   object-fit: contain;
   border-radius: 6px;
   margin-right: 20px;
 }
-.table__cantidad > input{
+.table__cantidad > input {
   width: 40px;
   border: none;
   outline: 0;
@@ -9961,4 +9961,63 @@ fieldset:disabled .btn {
   font-weight: 700;
   margin-right: 30px;
   margin-bottom: 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.nav > li {
+  float: right;
+}
+
+.nav li a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #434343;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: 140px;
+  top: 0px;
+}
+
+.services-section,
+.seccion-noticias,
+.seccion-equipo {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.seccion-noticias {
+  background-color: #edf2f5;
+}
+
+.header-container {
+  background-color: #3fbbd1;
+}
+
+.seccion-noticias {
+  flex-wrap: wrap;
 }
