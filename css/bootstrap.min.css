@@ -9939,8 +9939,8 @@ fieldset:disabled .btn {
 }
 
 .texto_miembro_equipo {
-  text-align: justify;
-  column-width: 100;
+  text-align:center;
+  column-width: 100%;
 }
 
 .table__productos {
