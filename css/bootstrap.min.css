@@ -9913,6 +9913,10 @@ fieldset:disabled .btn {
   margin-left: auto;
   width: 250px;
 }
+.circular--square {
+  border-radius:50%;
+  width: 275px;
+}
 
 .services-info__imagen {
   border-radius: 50%;
