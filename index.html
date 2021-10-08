@@ -28,6 +28,63 @@
                 font-size: 3.5rem;
             }
         }
+
+        .btn btn-secondary {
+
+            margin-top: 1em;
+        }
+
+        .texto_categorias {
+
+            text-align: justify;
+            
+            
+        }
+
+        .title_categries {
+
+            text-align: center;
+            margin-top: 2em;
+            
+            
+        }
+
+        .titulo_categoria {
+
+            text-align: center;
+        }
+
+        .navbar-brand {
+
+            margin-left: 1em;
+        }
+
+        .btn btn-secondary {
+    
+            
+        }
+
+        .parent {
+            padding-top: 3em;
+            text-align: center;
+        }
+
+        .news-info__title {
+
+            text-align: justify;
+            padding-left: 120px;
+
+        }
+
+        .texto_miembro_equipo {
+
+            text-align: justify;
+            padding: 7%;
+
+        }
+
+        
+        
     </style>
 
 
@@ -45,7 +102,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark nave">
 
             <div class="img-fluid">
-                <a class="navbar-brand" href="#">TECNOWARE</a>
+                <a class="navbar-brand" href="index.html">TECNOWARE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,6 +111,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div id="header">
                         <ul class="nav">
+                            <li><a href="">Inicio</a></li>
                             <li><a href="#equipo">Equipo</a></li>
                             <li><a href="">Categorias</a>
                                 <ul>
@@ -73,13 +131,13 @@
                         </li>
                         <li><a href="">Noticias</a>
                             <ul>
-                                <li><a href="">Novedades</a></li>
-                                <li><a href="">Tecnología</a></li>
-                                <li><a href="">Tendencias</a></li>
-                                <li><a href="">Entretenimiento</a></li>
+                                <li><a href="news.html">Novedades</a></li>
+                                <li><a href="news2.html">Tecnología</a></li>
+                                <li><a href="news3.html">Tendencias</a></li>
+                                <li><a href="news4.html">Entretenimiento</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Inicio</a></li>
+                        
                         </ul>
                     </div>
 
@@ -156,6 +214,10 @@
             <span class="visually-hidden">Siguiente</span>
         </button>
     </div>
+    <br>
+
+    <h2 class="title_categries">CATEGORÍAS</h2>
+    <br><br>
 
     <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -171,15 +233,21 @@
                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
                     preserveAspectRatio="xMidYMid slice" focusable="false">
                     <img class="services-info__imagen"
-                        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solutekcolombia.com%2Fimages%2Fcomputadores_escritorio_hp.jpeg&f=1&nofb=1"
+                        src="https://ae01.alicdn.com/kf/H8eab714491c540c58e882db7300e6a71r/Intel-13-3-inch-laptop-Windows-10-Pro-Ram-6GB-Rom-128GB-256GB-SSD-Cheap-Student.jpg_.webp"
                         alt="">
+                        
                 </svg>
+                <br>
 
-                <h2>Computación</h2>
-                <p>Las mejores computadoras con capacidades inigualables.</p>
+                <h2 class="titulo_categoria">Computación</h2>
+                
+                <p class="texto_categorias">Tenemos las últimas tecnologías de computación y todos los accesorios que necesitas 
+                    para actualizar y hacer mantenimiento a tus equipos .
+                </p>
                 <!--<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>-->
                 <div class="view details">
-                    <p></p><a class="btn btn-secondary" href="viewdetails1.html">Ver Detalles &raquo;</a></p>
+                    
+                    <p></p><a class="btn btn-secondary"  href="viewdetails1.html">Ver Detalles &raquo;</a></p>
                 </div>
             </div><!-- /.col-lg-4 -->
 
@@ -193,8 +261,9 @@
                 </svg>
 
 
-                <h2>Electrodomésticos</h2>
-                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the.
+                <h2 class="titulo_categoria">Electrodomésticos</h2>
+                <p class="texto_categorias">En Tecnoware contamos con las mejores marcas lideres en el mercado
+                    Compra tranquilo con el respaldo de la garantía de nuestros productos.
                 </p>
                 <p><a class="btn btn-secondary" href="viewdetails2.html">Ver detalles &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -208,8 +277,11 @@
                         alt="">
                 </svg>
 
-                <h2>Gadgets</h2>
-                <p>And lastly this, the third column of representative placeholder content.</p>
+                <h2 class="titulo_categoria">Gadgets</h2>
+                <p class="texto_categorias">Sabemos que te encanta la tecnología, por eso en aquí encontraras 
+                    dispositivos increibles que te facilitan la vida.
+                    En Tecnoware somo amantes del lifehacking
+                </p>
                 <p><a class="btn btn-secondary" href="viewdetails3.html">Ver detalles &raquo;</a></p>
             </div>
         </div>
@@ -224,12 +296,9 @@
                     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qhFzqRK4AmEWbhnx79-zVAHaHa%26pid%3DApi&f=1"
                     alt="cambiar imagen">
                 <h2>DANIEL ZUÑIGA</h2>
-                <p class="texto_miembro_equipo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
-                    similique
-                    ullam deleniti nisi et
-                    doloremque, omnis, ratione inventore aliquid veritatis placeat cum? Tenetur, cumque necessitatibus
-                    ab
-                    cupiditate qui soluta.</p>
+                <p class="texto_miembro_equipo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Iusto vero similiqu ullam deleniti nisi et doloremque, omnis, 
+                    ratione inventore aliquid veritatis placeat cum? Tenetur, cumque.</p>
             </div>
 
             <div class="nombre">
@@ -237,12 +306,10 @@
                     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LoH5ftkkf7yRFvopuFRijgHaHa%26pid%3DApi&f=1"
                     alt="">
                 <h2>GEIDER MERIÑO</h2>
-                <p class="texto_miembro_equipo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
-                    similique
-                    ullam deleniti nisi et
-                    doloremque, omnis, ratione inventore aliquid veritatis placeat cum? Tenetur, cumque necessitatibus
-                    ab
-                    cupiditate qui soluta.</p>
+                <p class="texto_miembro_equipo">Consultor de experiencia de usuario UX/UI, 
+                    Analista de datos NPM (Network Promoted Services). <br>
+                    Mi trabajo es hacer que tengas la mejor experiencia en nuestro sitio.  
+                 </p>
             </div>
             <!--
         <div class="col-lg-4">
@@ -273,15 +340,15 @@
                 <p class="texto_miembro_equipo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
                     similique
                     ullam deleniti nisi et
-                    doloremque, omnis, ratione inventore aliquid veritatis placeat cum? Tenetur, cumque necessitatibus
-                    ab
-                    cupiditate qui soluta.</p>
+                    doloremque, omnis, ratione inventore aliquid veritatis placeat cum? Tenetur, cumque.</p>
             </div>
         </div>
 
         <hr class="featurette-divider">
 
-        <h1 class="titulo_noticias">NOTICIAS</h1>
+        <h2 class="titulo_noticias">NOTICIAS</h2>
+
+
 
         <div class="parent">
 
@@ -290,7 +357,8 @@
                 <img class="news-info__imagen"
                     src="https://i1.wp.com/micasafit.club/wp-content/uploads/2021/07/disney-illustration.jpg?resize=696%2C464&ssl=1"
                     alt="">
-                <h2 class="news-info__title">Estos son todos los dispositivos compatibles con Disney Plus</h2>
+                <h3 class="news-info__title">Estos son todos los dispositivos 
+                    <br> compatibles con Disney Plus</h3>
                 <p></p>
                 <p><a class="btn btn-secondary" href="news.html">Ver más &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -303,9 +371,9 @@
                 <img class="news-info__imagen"
                     src="https://i1.wp.com/micasafit.club/wp-content/uploads/2021/07/steam-deck-01.jpg?resize=696%2C436&ssl=1"
                     alt="">
-                <h2 class="news-info__title">Steam Deck: esta es la nueva consola portátil de <br>Valve exclusiva
+                <h3 class="news-info__title">Steam Deck: esta es la nueva consola <br> portátil de Valve exclusiva
                     tecnoware
-                </h2>
+                </h3>
                 <p></p>
                 <p><a class="btn btn-secondary" href="news2.html">Ver más &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
@@ -319,7 +387,8 @@
                 <img class="news-info__imagen"
                     src="https://i2.wp.com/micasafit.club/wp-content/uploads/2021/07/amd-radeon-rx-5700-rx-5700-xt-review-04267-2.jpg?resize=696%2C464&ssl=1"
                     alt="">
-                <h2 class="news-info__title">Cómo acelerar tarjeta gráfica y mejorar el rendimiento de tu PC</h2>
+                <h3 class="news-info__title">Cómo acelerar tarjeta gráfica y
+                   <br> mejorar el rendimiento de tu PC</h3>
 
                 <p></p>
                 <p><a class="btn btn-secondary" href="news3.html">Ver más &raquo;</a></p>
@@ -333,7 +402,8 @@
                 <img class="news-info__imagen"
                     src="https://i1.wp.com/micasafit.club/wp-content/uploads/2021/09/ue-fits-roundup.jpg?fit=768%2C512&ssl=1"
                     alt="">
-                <h2 class="news-info__title">Los mejores auriculares true wireless de 2021 pruebalos ahora</h2>
+                <h3 class="news-info__title">Los mejores auriculares true 
+                    <br> wireless de 2021 pruebalos ahora</h3>
 
                 <p></p>
                 <p><a class="btn btn-secondary" href="news4.html">Ver más &raquo;</a></p>
@@ -356,6 +426,8 @@
     <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
+
+    <br><br>
 
     <!-- FOOTER -->
     <div class="container-footer">
